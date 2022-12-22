@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # updates the system and install dnf utils for other installation
-sudo dnf update --refresh -y
+sudo dnf update --refresh -y && sudo dnf upgrade -y
 sudo dnf install dnf-utils -y
 
 # install alacritty
