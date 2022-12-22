@@ -28,6 +28,10 @@ flatpak run com.spotify.Client
 # install lutris
 sudo dnf install lutris -y
 
+# install steam
+sudo dnf install https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y
+sudo dnf install steam -y
+
 # enables copr and installs btm
 sudo dnf copr enable atim/bottom -y
 sudo dnf install bottom -y
